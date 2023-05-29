@@ -1,0 +1,52 @@
+header{
+    min-height: 50vh;
+    background-image: url(/img/wp_advice_3017-b-0-832cfa6a9a9262.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.70;
+}
+
+#nav{
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    background-color: transparent !important;
+}
+
+    #intro{
+        animation: name-breathing 10s infinite normal;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: con-breathing;
+    }
+    
+    @keyframes con-breathing {
+        0% {
+            transform: scale(1);
+        }
+        16% {
+            transform: scale(1.1);
+        }
+        32% {
+            transform: scale(1);
+        }
+        48% {
+            transform: scale(1.1);
+        }
+        64% {
+            transform: scale(1);
+        }
+        80% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+}
