@@ -1,0 +1,52 @@
+#nav{
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    background-color:#605246 !important;
+    z-index: 1;
+   
+}
+
+a{
+    color: white !important;
+    font-size: medium;
+}
+
+.drop{
+    background-color:#927861 !important;
+   
+
+}
+
+header{
+   padding:250px 0px;
+    background-image: url(/img/istockphoto-1026205392-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+    
+}
+
+
+#sec{
+    padding: 80px 0px;
+    background-color: lightblue;
+    margin-bottom: 60px;
+}
+
+.sec{
+    width: 100% !important;
+    /* background-color: #174043; */
+    /* background-color: #927861 ; */
+}
+
+.para{
+    font-size: larger!important;
+}
+
+.selling{
+    margin-top: 20px !important;
+    font-size: large;
+    font-weight: bold;
+}

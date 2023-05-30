@@ -1,17 +1,27 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    scroll-behavior: none;
+}
+
 header{
-    min-height: 50vh;
-    background-image: url(/img/wp_advice_3017-b-0-832cfa6a9a9262.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+       background-image: url(/img/wp_advice_3017-b-0-832cfa6a9a9262.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.70;
+   
 }
 
 #nav{
     /* position: fixed; */
     top: 0;
     width: 100%;
-    background-color: transparent !important;
+    background-color:#605246 !important;
+   z-index: 1;
 }
 
     #intro{
@@ -24,6 +34,16 @@ header{
         animation-fill-mode: none;
         animation-play-state: running;
         animation-name: con-breathing;
+    }
+    a{
+        color: white !important;
+        font-size: medium;
+    }
+
+    .drop{
+        background-color:#927861 !important;
+       
+
     }
     
     @keyframes con-breathing {
@@ -49,4 +69,15 @@ header{
             transform: scale(1);
         }
     }
-}
+    @media screen and (max-width: 350px) {
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            
+                }
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
