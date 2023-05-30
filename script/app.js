@@ -37,11 +37,11 @@ let Product = [
   
 ];
 
-let dispProducts = document.querySelector('#Product');
+let dispProducts = document.querySelector('.carousel-inner');
 Product.forEach((data) => {
     dispProducts.innerHTML += `<div
     id="cara"
-    class="carousel-item active"
+    class="carousel-item ${Product.indexOf(data) == 0 ? 'active': ''}"
     data-bs-interval="100000"
   >
     <img
