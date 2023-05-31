@@ -8,7 +8,7 @@ let Product = [
     icon2: '/icons/icon_bed_blue.svg',
     icon3: '/icons/icon_secure_parking_blue.svg',
     paragraph:
-      "  A Lovely 3 Bedroom property for sale In the heart of Kuils River. This property has lots of potential when making some changes and/or deciding to make house your home,which makes it  perfect for you",
+      "  A Lovely 3 Bedroom property for sale In the heart of Kuils River. This property has lots of potential and makes the perfect Home for you",
 
   },
   {
@@ -20,7 +20,7 @@ let Product = [
     icon2: '/icons/icon_bed_blue.svg',
     icon3: '/icons/icon_secure_parking_blue.svg',
     paragraph:
-      "  A Lovely 3 Bedroom property for sale In the heart of Kuils River. This property has lots of potential when making some changes and/or deciding to make house your home,which makes it  perfect for you",
+      "  A Lovely 3 Bedroom property for sale In the heart of Kuils River. This property has lots of potential and makes the perfect Home for you",
     
   },
   {
@@ -32,7 +32,7 @@ let Product = [
     icon2: '/icons/icon_bed_blue.svg',
     icon3: '/icons/icon_secure_parking_blue.svg',
     paragraph:
-      "  A Lovely 3 Bedroom property for sale In the heart of Kuils River. This property has lots of potential when making some changes and/or deciding to make house your home,which makes it  perfect for you",
+      "  A Lovely 3 Bedroom property for sale In the heart of Kuils River. This property has lots of potential and makes the perfect Home for you",
   }
   
 ];

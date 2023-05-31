@@ -64,7 +64,7 @@ ol{
         flex-direction: column;
         justify-content: start;
         align-content:start ;
-      
+      margin-left: 65px;
     }
     
 }
