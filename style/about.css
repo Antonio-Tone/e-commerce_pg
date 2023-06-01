@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/img/istockphoto-1026205392-612x612.jpg);
+    opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#nav{
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    background-color:#605246 !important;
+    z-index: 1;
+    position:fixed;
+   
+}
+
+.drop{
+    background-color:#927861 !important;
+   
+
+}

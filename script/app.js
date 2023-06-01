@@ -1,6 +1,6 @@
 let Product = [
   {
-    image: "/img/Bellville.png",
+    image: "/img/41438-b580.jpg",
     Price: "selling Price: R 1.5m",
     Address: "1 Pacadi Str, Kuils River.",
     Description: "3 bedroom property for sale in Kuils River:",
